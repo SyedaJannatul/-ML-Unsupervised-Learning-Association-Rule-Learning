@@ -6,6 +6,7 @@ import pandas as pd
 
 #Importing dataset
 dataset = pd.read_csv('Market_Basket_Optimisation.csv', header = None)
+
 #Converting the dataset values into list
 transactions = []
 for sublist in dataset.values.tolist():
