@@ -1,9 +1,5 @@
-
 #pip install mlxtend 
 #pip install --no-binary :all: mlxtend
-
-
-
 
 import numpy as np
 import pandas as pd
